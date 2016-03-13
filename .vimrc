@@ -36,6 +36,10 @@ nnoremap <leader>cs"' :%s/"\([^"]*\)"/'\1'/g<cr>
 " disable Ex mode
 nnoremap Q <nop>
 
+" make life a little easier
+nnoremap ; :
+inoremap jj <esc>
+
 " autoreload .vimrc on update
 autocmd! bufwritepost .vimrc source %
 
